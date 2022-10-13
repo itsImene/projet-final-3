@@ -1,0 +1,34 @@
+
+body{
+    background-color: gray
+}
+
+#register{
+    background-color: gray;
+    border:none;
+    width: 200px;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    font-size: 25px;
+}
+#login{
+    background-color: gray;
+    border: none;
+    width: 200px;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    font-size: 25px;
+}
+#register:hover{
+    background-color: darkgreen;
+}
+#login:hover{
+    background-color: darkgreen;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

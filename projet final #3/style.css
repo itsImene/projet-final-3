@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  body{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+nav{
+    background-color: rgb(174, 173, 173);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: none;
+}
+h1{
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 40px;
+}
+
+#carouselExampleCaptions{
+    box-shadow: 10px 5px 50px green;
+    margin-bottom: 30px;
+}
+
+nav,img{
+    margin: none;
+}
+.boutonNav{
+    background-color: rgba(0, 128, 0, 0.501);
+}
+p{
+    font-family:'Roboto', sans-serif;
+}
+a{
+    font-size: 22px;
+    color: black;
+}
+#makam1:hover{
+    color:green;
+}
+#dame1:hover{
+    color:red;
+}
+#jardin1:hover{
+    color: rgb(221, 221, 221);
+}
+
+#makam11:hover{
+    color:green;
+}
+#dame11:hover{
+    color:red;
+}
+#jardin11:hover{
+    color: rgb(255, 255, 255);
+}
+
+.bd-example{
+    display: flex;
+    align-content: center;
+    width: 1000px;
+    margin-left:400px;
+}
+.ulu{
+    background-color: rgb(180, 180, 180);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+p,.text{
+    font-size: 25px;
+    background-color: rgba(131, 131, 131, 0.15);
+    width: 600px;
+    margin-left: 30px;
+}
+
+.img{
+    margin: 20px;
+    border-radius: 15px;
+    border: 5px dotted gray;
+}
+.allMakam{
+    display: flex;
+}
+h2{
+    padding: 15px;
+}
+.texte{
+    width: 750px;
+    padding: 20px;
+}
+.makamdeux{
+    width: 750;
+    margin-top: 55px;
+}
+.tout{
+    background-color: rgba(0, 139, 139, 0.19);
+border-radius: 15px;
+margin-top: 20px;
+margin-bottom: 10px;
+border: 5px gray dotted;
+}
+
+.allDame{
+    background-color:rgba(238, 229, 55, 0.281);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 5px gray dotted;
+}
+.tout2{
+    display: flex;
+
+}
+.info{
+    
+    width: 750;
+    margin-top: 78px;
+}
+.savoirPlus{
+    color: green;
+    text-decoration: underline;
+}
+
+
+
+
+.allJardin{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(139, 0, 0, 0.188);
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 5px gray dotted;
+}
+.infojardin{
+    margin-top: 75px;
+}
+.seco{
+    display: flex;
+    margin-left: 700px;
+}
+/* l'inscription */
+
+
+
+
+
+
+
+ /* le responsive */
+ @media screen and (max-width: 1500px) {
+    .bd-example{
+    width: 90%;
+    margin-left: 20px;
+   }
+    .allMakam{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 80%;
+}
+.tout2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ }
+
+
+
+ @media screen and (max-width:1000px){
+ul.ulu{
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.ulu{
+    width:60%;  
+    padding-bottom: 20px;
+}
+ }
+
+@media screen and (max-width:900px){
+    p{
+        font-size: 1.4em;
+    }
+    .makamun{
+        width: 90%;
+    }
+    p{
+width:80%
+    }
+    p.texte{
+        width: 90%;
+    }
+}
